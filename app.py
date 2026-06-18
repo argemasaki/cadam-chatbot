@@ -103,7 +103,7 @@ client = Groq(api_key=API_KEY)
 RULES = load_rules() or RULES_FALLBACK
 
 st.set_page_config(page_title="CADAMルール検索", page_icon="🔍", layout="centered")
-st.title("🔍 ネスティング切断ルール検索")
+st.title("🔍 CAD/CAMルール検索")
 st.caption("自然言語でCADAMルールを検索できます")
 
 if "messages" not in st.session_state:
